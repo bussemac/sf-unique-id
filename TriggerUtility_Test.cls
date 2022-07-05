@@ -1,3 +1,7 @@
+/* WARNING: You will want to modify this; this assumes you created a field ExternalGuid__c
+   on Opportunity and that you have no validation rules that would interfere with creating 
+   an Opportunity with just a Name. You can substitute a custom object if you want. */
+   
 @isTest
 private without sharing class TriggerUtility_Test {
   @isTest
